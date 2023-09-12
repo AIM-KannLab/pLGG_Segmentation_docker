@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+# activate conda environment and let the following process take over
+conda activate bwh_plgg
+exec "$@"
+source ~/.bashrc
+# rest of the commands 
