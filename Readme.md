@@ -5,7 +5,7 @@ Prerequisites:
 - Install docker: https://docs.docker.com/engine/install
 - Clone repo: `git clone` 
 - GPU: Nvidia GPU with CUDA support (tested on Nvidia A6000)
-- The pretrained models can be downloaded at the following Drive link https://drive.google.com/file/d/1cbi3p9IoKWjKR-pl3yXde6ISx4hZy2DB/view?usp=sharing. Unzip this file, the unzipped folder should be named nnUNet_trained_models and placed in 'nnUnet/' folder.
+- The pretrained models can be downloaded at the following Drive link https://drive.google.com/file/d/1cbi3p9IoKWjKR-pl3yXde6ISx4hZy2DB/view?usp=sharing. Unzip this file, the unzipped folder should be named *nnUnet_trained_models* and placed in 'nnUnet/' folder.
 
 ## How to run the docker image inference on single MRI T2w image
 0. Put all images in the 'example_input' folder
